@@ -78,7 +78,7 @@
 .poke-do-dia-header {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding: 5px 20px;
     border-radius: 0px 0px 5px 5px;
     background-color: #231E1E;
@@ -86,30 +86,37 @@
 
 .poke-do-dia-title {
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: white;
 }
 
 .poke-do-dia-nome {
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: 500;
     color: white;
 }
 
-.poke-do-dia-content {
+.pdd-infos-container {
     display: flex;
     gap: 20px;
+    flex-direction: column;
+}
+
+.poke-do-dia-content {
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
     align-items: center;
-    padding: 5px 10px;
+    padding: 0px 10px;
 }
 
 .poke-do-dia-infos {
     display: flex;
-    flex-direction: column;
     gap: 5px;
+    flex-direction: column;
 }
 
 .poke-do-dia-item {
@@ -133,19 +140,18 @@
     display: flex;
     margin-top: 5px;
     gap: 5px;
-    flex-direction: column;
 }
 
 .poke-do-dia-tipo {
     border: 1px solid grey;
-    padding: 2px 9px;
+    padding: 2px 30px;
     text-align: center;
     border-radius: 10px;
 }
 
 .pdd-tipo-text {
     font-family: "Inter", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: white;
 }

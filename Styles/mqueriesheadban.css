@@ -1,0 +1,393 @@
+@media screen and (max-width: 320px) {
+    /* Header */
+    .header-mobile {
+        display: flex;
+    }
+
+    .menu, .menu2 {
+        display: none;
+    }
+
+    .header{
+        justify-content: space-between;
+    }
+
+    .menu-mobile-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-item-text {
+        font-size: 1rem;
+    }
+
+    .logo-title {
+        padding: 0 0px;
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 30px;
+    }
+
+    .banner-welcome {
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .welcome-pokeball {
+        width: 26px;
+        height: 26px;
+    }
+
+    .welcome-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .welcome-text {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .welcome-subtext {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .welcome-bottom {
+        gap: 5px;
+    }
+
+    .welcome-poke {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Banner poke do dia */
+    .banner-poke-do-dia {
+        border-radius: 0;
+    }
+
+    .poke-do-dia-title {
+        font-size: 1.1rem;
+    }
+
+    .poke-do-dia-nome {
+        font-size: 0.9rem;
+    }
+
+    .poke-do-dia-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pdd-infos-container {
+        gap: 5px;
+        align-items: center;
+    }
+
+    .poke-do-dia-infos {
+        flex-direction: row;
+    }
+
+    .poke-do-dia-item {
+        font-size: 0.8rem;
+    }
+
+    .poke-do-dia-tipos{
+        margin-top: 0;
+    }
+
+    .pdd-tipo-text{
+        font-size: 0.6rem;
+    }
+
+    .poke-do-dia-imgs{
+        gap: 5px;
+    }
+
+    .poke-do-dia-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 550px) {
+    .header-mobile {
+        display: flex;
+    }
+
+    .menu, .menu2 {
+        display: none;
+    }
+
+    .header{
+        justify-content: space-between;
+    }
+
+    .menu-mobile-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-item-text {
+        font-size: 1.2rem;
+    }
+
+    .logo-title {
+        padding: 0 0px;
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 30px;
+    }
+
+    .banner-welcome {
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .welcome-pokeball {
+        width: 26px;
+        height: 26px;
+    }
+
+    .welcome-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .welcome-text {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .welcome-subtext {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .welcome-bottom {
+        gap: 5px;
+    }
+
+    .welcome-poke {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Banner poke do dia */
+    .banner-poke-do-dia {
+        border-radius: 0;
+    }
+
+    .poke-do-dia-title {
+        font-size: 1.2rem;
+    }
+
+    .poke-do-dia-nome {
+        font-size: 1rem;
+    }
+
+    .poke-do-dia-content {
+        flex-direction: column;
+    }
+
+    .pdd-infos-container {
+        gap: 5px;
+        align-items: center;
+    }
+
+    .poke-do-dia-infos {
+        flex-direction: row;
+    }
+
+    .poke-do-dia-item {
+        font-size: 0.8rem;
+    }
+
+    .poke-do-dia-tipos{
+        margin-top: 0;
+    }
+
+    .pdd-tipo-text{
+        font-size: 0.6rem;
+    }
+
+    .poke-do-dia-imgs{
+        gap: 5px;
+    }
+
+    .poke-do-dia-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+    .language {
+        position: absolute;
+        right: 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    /* Banner welcome */
+    .banner-welcome-header {
+        gap: 5px;
+    }
+
+    .welcome-pokeball {
+        width: 28px;
+        height: 28px;
+    }
+
+    .welcome-title {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .welcome-text {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .welcome-subtext {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .welcome-bottom {
+        gap: 10px;
+    }
+
+    .welcome-poke {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Banner poke do dia */
+    .poke-do-dia-header {
+        padding: 5px 40px;
+    }
+
+    .poke-do-dia-title {
+        font-size: 1.4rem;
+    }
+
+    .poke-do-dia-content {
+        flex-direction: column;
+    }
+
+    .pdd-infos-container {
+        gap: 5px;
+        align-items: center;
+    }
+
+    .poke-do-dia-infos {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .poke-do-dia-tipos {
+        flex-direction: row;
+    }
+
+    .poke-do-dia-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* Banner welcome */
+    .banner {
+        flex-direction: column;
+    }
+
+    /* Banner poker do dia */
+    .poke-do-dia-header {
+        padding: 5px 40px;
+    }
+
+    .poke-do-dia-content {
+        margin-top: 0;
+        padding: 0  ;
+    }
+
+    .poke-do-dia-item {
+        font-size: 1.2rem;
+    }
+
+    .pdd-tipo-text{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2000px){
+    .menu-item-text {
+        font-size: 1.6rem;
+    }
+
+    /* Banner welcome */
+    .banner-welcome {
+        gap: 30px;
+    }
+
+    .welcome-title {
+        font-size: 1.5rem;
+    }
+
+    .welcome-text {
+        font-size: 1.1rem;
+    }
+
+    .welcome-bottom {
+        gap: 20px;
+    }
+
+    .welcome-poke {
+        width: 75px;
+        height: 75px;
+    }
+
+    /* Banner poke do dia */
+    .poke-do-dia-header {
+        padding: 5px 40px;
+    }
+    .poke-do-dia-title {
+        font-size: 1.6rem;
+    }
+
+    .poke-do-dia-nome {
+        font-size: 1.5rem;
+    }
+
+    .poke-do-dia-content {
+        flex-direction: column;
+    }
+
+    .pdd-infos-container {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .poke-do-dia-infos {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 2300px) {
+    .menu-item-text {
+        font-size: 1.9rem;
+    }
+}
