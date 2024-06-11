@@ -1,0 +1,162 @@
+/* Banner */
+.banner {
+    display: flex;
+    padding: 20px 0 20px 20px;
+    gap: 50px;
+}
+
+/* Estilos do banner de boas-vindas*/
+.banner-welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: #EE5F5F;
+    padding: 10px 0px;
+    border-radius: 20px 20px 3px 20px;
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+
+.banner-welcome-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.welcome-pokeball {
+    width: 30px;
+    height: 30px;
+}
+
+.welcome-title {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 20px;
+    text-shadow: 0px 3px 3.5px rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.welcome-subtext {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-bottom {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.welcome-poke {
+    width: 75px;
+    height: 75px;
+}
+
+/* Estilos do banner Poke do dia */
+.banner-poke-do-dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EE5F5F;
+    border-radius: 20px 0 0px 5px;
+}
+
+.poke-do-dia-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #231E1E;
+}
+
+.poke-do-dia-title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.poke-do-dia-nome {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+}
+
+.poke-do-dia-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.poke-do-dia-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.poke-do-dia-item {
+    display: flex;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    color: white;
+    gap: 5px;
+    align-items: center;
+}
+
+.poke-do-dia-format {
+    font-style: italic;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 250;
+}
+
+.poke-do-dia-tipos {
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.poke-do-dia-tipo {
+    border: 1px solid grey;
+    padding: 2px 9px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pdd-tipo-text {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Estilos poke do dia imgs */
+.poke-do-dia-imgs {
+    display: flex;
+    gap: 20px;
+}
+
+.poke-do-dia-img {
+    width: 200px;
+    height: 200px;
+}

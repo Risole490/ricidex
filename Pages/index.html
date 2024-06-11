@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>riciclub - Ricidex</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/Styles/reset.css">
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="/Styles/header.css">
+    <link rel="stylesheet" href="/Styles/banner.css">
     <link rel="stylesheet" href="/Styles/mediaqueries.css">
 </head>
 <body>
@@ -57,33 +62,54 @@
 
     <section class="banner">
         <div class="banner-welcome">
-            
             <div class="banner-welcome-header">
-                <img src="/Images/pokeball.png" alt="Pokébola" class="welcome-pokeball">
+                <img src="/Images/pokeball-banner.png" alt="Pokébola" class="welcome-pokeball">
                 <h1 class="welcome-title">Bem-vindo(a) ao Ricidex!</h1>
-                <img src="/Images/pokeball.png" alt="Pokébola 2" class="welcome-pokeball">
+                <img src="/Images/pokeball-banner.png" alt="Pokébola 2" class="welcome-pokeball">
             </div>
             <p class="welcome-text">Aqui você encontrará algumas interações bacanas. Como por exemplo, participar de um mini-game para tentar acertar o nome do pokémon gerado, buscar algum pokémon específico e ver informações sobre ele ou simplesmente pedir para o site mostrar um pokémon aleatoriamente.</p>
-            <p class="welcome-subtext">Ah, e todo dia terá um pokémon novo na seção ao lado. Quem sabe não apareça o seu favorito?</p>
+            <div class="welcome-bottom">
+                <img src="/Images/ditto.png" alt="Ditto" class="welcome-poke">
+                    <p class="welcome-subtext">Ah, e todo dia terá um pokémon novo na seção ao lado. Quem sabe não apareça o seu favorito?</p>
+                <img src="/Images/dragapult.png" alt="Dragapult" class="welcome-poke">
+            </div>
         </div>
 
         <div class="banner-poke-do-dia">
             <div class="poke-do-dia-header">
-                <h2 class="poke-do-dia-title">Poke do dia:</h2> <span class="poke-do-dia-nome">Arcanine</span>
+                <h2 class="poke-do-dia-title">Poke do dia:</h2> 
+                <span class="poke-do-dia-nome">Arcanine</span>
             </div>
-            <div class="poke-do-dia-infos">
-                <p class="poke-do-dia-regiao">Região: </p>
-                <p class="poke-do-dia-gen">Geração: </p>
-                <p class="poke-do-dia-altura">Altura:</p>
-                <p class="poke-do-dia-peso">Peso:</p>
-                <div class="poke-do-dia-tipos">
-                    <div class="poke-do-dia-tipo1">Tipo 1</div>
-                    <div class="poke-do-dia-tipo2">Tipo 2 </div>
+
+            <div class="poke-do-dia-content">
+                <div class="poke-do-dia-infos">
+                    <p class="poke-do-dia-item">Região: 
+                        <span class="poke-do-dia-format">Kanto</span>
+                    </p>
+                    <p class="poke-do-dia-item">Geração 
+                        <span class="poke-do-dia-format">I</span>
+                    </p>
+                    <p class="poke-do-dia-item">Altura: 
+                        <span class="poke-do-dia-format">19</span>
+                    </p>
+                    <p class="poke-do-dia-item">Peso: 
+                        <span class="poke-do-dia-format">1550</span>
+                    </p>
+                    <div class="poke-do-dia-tipos">
+                        <div class="poke-do-dia-tipo tipoapi">
+                            <p class="pdd-tipo-text">Tipo1</p>
+                        </div>
+                        <div class="poke-do-dia-tipo tipoapi">
+                            <p class="pdd-tipo-text" >Tipo2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="poke-do-dia-imgs">
+                    <img src="/Images/arcanine.png" alt="Pokémon Arcanine Normal" class="poke-do-dia-img">
+                    <img src="/Images/arcanine-shiny.png" alt="Pokémon Arcanine Shiny" class="poke-do-dia-img">
                 </div>
             </div>
-            <div class="poke-do-dia-imgs">
-                <img src="/Images/arcanine.png" alt="Pokémon Arcanine Normal">
-                <img src="/Images/arcanine-shiny.png" alt="Pokémon Arcanine Shiny">
         </div>
 
     </section>
