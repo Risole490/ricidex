@@ -1,0 +1,50 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #231E1E;
+}
+
+/* Estilos header */
+.header {
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Estilos do logo */
+.logo-title {
+    padding: 0 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos do menu do header*/
+.menu, .menu2 {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.menu-item-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-item-text {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
