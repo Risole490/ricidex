@@ -2,7 +2,7 @@
 .banner {
     display: flex;
     padding: 20px 0 20px 20px;
-    gap: 50px;
+    gap: 90px;
 }
 
 /* Estilos do banner de boas-vindas*/
@@ -38,7 +38,7 @@
 }
 
 .welcome-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
     padding: 0 20px;
     text-shadow: 0px 3px 3.5px rgba(0, 0, 0, 1);
@@ -49,7 +49,7 @@
 
 .welcome-subtext {
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
     font-style: italic;
     text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
