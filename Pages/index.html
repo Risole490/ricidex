@@ -150,13 +150,13 @@
             </div>
 
             <div class="section-bottom">
-                <input type="text" name="nickname" id="input-nickname" class="section-input">
+                <input type="text" name="nickname" id="input-nickname" class="section-input" placeholder="Digite seu usuário">
                 <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
             </div>
         </div>
 
         <div class="section">
-            <div class="section-header">
+            <div class="section-header header-busca">
                 <h2 class="section-title">Buscar pokémon</h2>
                 <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
@@ -179,8 +179,10 @@
                     <label for="input-shiny">Shiny</label>
                 </div>
 
-                <input type="text" class="section-input" placeholder="Digite o nome do pokémon">
-                <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
+                <div class="input-section">
+                    <input type="text" class="section-input" placeholder="Digite o nome do pokémon">
+                    <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
+                </div>
                 <span class="spmon-erro">Pokémon não encontrado :/</span>
             </div>
         </div>
@@ -215,6 +217,17 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <p class="footer-text">Desenvolvido por <a href="#" class="footer-link">Leoyan</a> - 2024 | </p>
+
+            <div class="footer-social">
+                <a href="#" class="footer-social-link"><img src="/Images/github.png" alt="GitHub" class="footer-social-icon"></a>
+                <a href="#" class="footer-social-link"><img src="/Images/linkedin.png" alt="LinkedIn" class="footer-social-icon"></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="/Scripts/main.js"></script>
 </body>
