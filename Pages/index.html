@@ -143,13 +143,15 @@
                     <li class="quiz-regras-item">6. O quiz só encerra quando o seu HP chegar a 0 ou você pedir para encerrar.</li>
                 </ul>
                 
-                <input type="checkbox" name="checkbox" id="input-checkbox" required> 
-                <label for="input-checkbox">Entendi as regras.</label>
+                <div class="quiz-regras-checkbox">
+                    <input type="checkbox" name="checkbox" id="input-checkbox" required> 
+                    <label for="input-checkbox">Entendi as regras.</label>
+                </div>
             </div>
 
             <div class="section-bottom">
-                <input type="text" name="nickname" id="input-nickname">
-                <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="quiz-pokeball-btn"></button>
+                <input type="text" name="nickname" id="input-nickname" class="section-input">
+                <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
             </div>
         </div>
 
@@ -178,7 +180,7 @@
                 </div>
 
                 <input type="text" class="section-input" placeholder="Digite o nome do pokémon">
-                <button class="section-button"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball"></button>
+                <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
                 <span class="spmon-erro">Pokémon não encontrado :/</span>
             </div>
         </div>
@@ -207,7 +209,7 @@
                 </div>
 
                 <div class="spmon-bottom">
-                    <button class="spmon-btn-gerar"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball"></button>
+                    <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
                     <span class="spmon-erro">Ocorreu um erro e não consegui gerar o pokémon :/</span>
                 </div>
             </div>

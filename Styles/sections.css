@@ -1,4 +1,4 @@
-/* Quiz styles */
+/* Sections styles */
 
 .sections {
     display: flex;
@@ -12,10 +12,108 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 10px 10px 10px;
     background-color: #444444;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} 
+}
+
+/* Quiz styles */
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    gap: 40px;
+    background-color: #1E1E1E;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.quiz-header-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-quiz {
+    width: 40px;
+    height: 40px;
+}
+
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.quiz-header-item-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.quiz-regras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 70px;
+    gap: 20px;
+}
+
+.quiz-regras-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.quiz-regras-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz-regras-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.quiz-regras-checkbox {
+    margin-top: 50px;
+}
+
+.quiz-regras-checkbox label{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.quiz-regras-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.section-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-pokeball {
+    background: none;
+    border: none;
+}
+
+.pokeball-btn {
+    width: 40px;
+    height: 40px;
+}
