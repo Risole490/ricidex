@@ -11,7 +11,6 @@
 .section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
@@ -148,14 +147,20 @@
     font-weight: 100;
     color: #ffffff;
     font-style: italic;
-    width: 400px;
+    width: 380px;
 }
 
 .section-middle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+}
+
+.spmon-header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .spmon-img {
@@ -181,6 +186,71 @@
     border-radius: 50px;
 }
 
+.spmon-info {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.spmon-info span {
+    font-weight: 200;
+    font-style: italic;
+    margin-left: 3px;
+}
+
+.shiny-verif label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.input-section {
+    display: flex;
+    gap: 5px;
+}
+
+.bottom-busca {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.spmon-erro {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ff8a8a;
+}
+
+/* Gerar pokémon styles */
+.spmon-nome {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.spmon-shiny {
+    align-self: flex-end;
+    color: gold;
+    font-style: italic;
+}
+
+.gmon-bottom {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmon-pokeball {
+    width: 50px;
+    height: 50px;
+}
 
 
 
