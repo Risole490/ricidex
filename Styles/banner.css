@@ -115,7 +115,7 @@
 
 .poke-do-dia-infos {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     flex-direction: column;
 }
 

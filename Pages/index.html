@@ -147,7 +147,7 @@
                 <label for="input-checkbox">Entendi as regras.</label>
             </div>
 
-            <div class="quiz-bottom">
+            <div class="section-bottom">
                 <input type="text" name="nickname" id="input-nickname">
                 <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="quiz-pokeball-btn"></button>
             </div>
@@ -156,28 +156,62 @@
         <div class="section">
             <div class="section-header">
                 <h2 class="section-title">Buscar pokémon</h2>
-                <img src="/Images/pokeball-section.png" alt="Ícone interrogação" class="section-info">
+                <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
             <p class="section-text">Se não for possível encontrar um pokemon, peço desculpas. Todo erro que ocorrer é relatado e tento ajustar com o tempo.</p>
 
-            <div class="quiz-bottom">
+            <div class="section-middle">
+                <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
+
+                <div class="spmon-infos">
+                    <p class="spmon-tipo">Dragão</p>
+                    <p class="spmon-tipo">Vento</p>
+                    <p class="spmon-regiao">Região: Sinnoh</p>
+                    <p class="spmon-geracao">Geração IV</p>
+                </div>
+            </div>
+
+            <div class="section-bottom">
                 <div class="shiny-verif">
                     <input type="checkbox" name="shinyForm" id="input-shiny">
                     <label for="input-shiny">Shiny</label>
                 </div>
+
                 <input type="text" class="section-input" placeholder="Digite o nome do pokémon">
                 <button class="section-button"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball"></button>
+                <span class="spmon-erro">Pokémon não encontrado :/</span>
             </div>
         </div>
 
-        <!-- <div class="section">
+        <div class="section">
             <div class="section-header">
-                <h2 class="section-title">Pokémon aleatório</h2>
-                <img src="/Images/pokeball-section.png" alt="Pokébola" class="section-pokeball">
+                <h2 class="section-title">Gerar pokémon</h2>
+                <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
-            <p class="section-text">Clique no botão abaixo para ver um pokémon aleatório.</p>
-            <button class="section-button">Ver</button>
-        </div> -->
+
+            <div class="section-pokemon">
+                <div class="spmon-header">
+                    <h2 class="spmon-nome">Nome do pokémon</h2>
+                    <p class="spmon-shiny">Shiny!</p>
+                </div>
+
+                <div class="section-middle">
+                    <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
+
+                    <div class="spmon-infos">
+                        <p class="spmon-tipo">Tipo1</p>
+                        <p class="spmon-tipo">Tipo2</p>
+                        <p class="spmon-regiao">Sinnoh</p>
+                        <p class="spmon-geracao">IV</p>
+                    </div>
+                </div>
+
+                <div class="spmon-bottom">
+                    <button class="spmon-btn-gerar"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball"></button>
+                    <span class="spmon-erro">Ocorreu um erro e não consegui gerar o pokémon :/</span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="/Scripts/main.js"></script>
