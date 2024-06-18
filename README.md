@@ -8,7 +8,8 @@ Um website interativo com mini-game e ações envolvendo pokémons! Feito absolu
 
 ## Funcionalidades atuais
 
-- Gerador de pokémon aleatório
+- Responsividade aplicada ao banner para dispositivos menores;
+- Gerador de pokémon aleatório funcionando;
 
 
 ## Roadmap
