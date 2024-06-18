@@ -160,20 +160,23 @@
                 <h2 class="section-title">Buscar pokémon</h2>
                 <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
-            <p class="section-text">Se não for possível encontrar um pokemon, peço desculpas. Todo erro que ocorrer é relatado e tento ajustar com o tempo.</p>
+            <p class="section-text">Se não for possível encontrar um pokemon, peço desculpas. Todo erro é relatado e tento ajustar com o tempo.</p>
 
             <div class="section-middle">
                 <div class="spmon-header">
                     <h2 class="spmon-nome">Rayquaza</h2>
+                    <p class="spmon-shiny">Shiny!</p>
                 </div>
 
-                <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
+                <div class="section-middle-poke">
+                    <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
 
-                <div class="spmon-infos">
-                    <p class="spmon-tipo">Dragão</p>
-                    <p class="spmon-tipo">Vento</p>
-                    <p class="spmon-info">Região: <span>Sinnoh</span></p>
-                    <p class="spmon-info">Geração <span>IV</span></p>
+                    <div class="spmon-infos">
+                        <p class="spmon-tipo dragon">Tipo1</p>
+                        <p class="spmon-tipo ghost">Tipo2</p>
+                        <p class="spmon-info">Habilidade: <span>Serene Grace</span></p>
+                        <p class="spmon-info">Geração <span>IV</span></p>
+                    </div>
                 </div>
             </div>
 
@@ -196,29 +199,15 @@
                 <h2 class="section-title">Gerar pokémon</h2>
                 <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
+            <p class="section-text">Clique na pokébola para gerar um pokémon aleatório! <br>Possui 5s de espera e 1% de chance de vir shiny.</p>
 
-            <div class="section-middle">
-                <div class="spmon-header">
-                    <h2 class="spmon-nome">Nome do pokémon</h2>
-                    <p class="spmon-shiny">Shiny!</p>
-                </div>
-
-                <div class="section-middle">
-                    <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
-
-                    <div class="spmon-infos">
-                        <p class="spmon-tipo">Tipo1</p>
-                        <p class="spmon-tipo">Tipo2</p>
-                        <p class="spmon-info">Região: <span>Sinnoh</span></p>
-                        <p class="spmon-info">Geração <span>IV</span></p>
-                    </div>
-                </div>
+            <div class="section-middle" id="middle-gmon">
+            </div>
 
                 <div class="section-bottom gmon-bottom">
-                    <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn gmon-pokeball"></button>
-                    <span class="spmon-erro">Ocorreu um erro e não consegui gerar o pokémon :/</span>
+                    <button class="btn-pokeball" id="gmon-btn"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn gmon-pokeball"></button>
+                    <span class="gmon-erro" id="gmon-erro">Ops! Não consegui buscar um poke :/</span>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -234,5 +223,6 @@
     </footer>
 
     <script src="/Scripts/main.js"></script>
+    <script type="module" src="/Scripts/gerarpoke.js"></script>
 </body>
 </html>

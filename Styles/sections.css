@@ -11,6 +11,7 @@
 .section {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
@@ -123,6 +124,7 @@
 .btn-pokeball {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .pokeball-btn {
@@ -143,41 +145,43 @@
 
 .section-text {
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 150;
+    line-height: 16px;
     color: #ffffff;
     font-style: italic;
     width: 380px;
+    text-align: center;
 }
 
-.section-middle {
+.section-middle, .section-middle-poke {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.spmon-header {
+.spmon-header, .gmon-header {
     margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.spmon-img {
+.spmon-img, .gmon-img {
     width: 400px;
     height: 400px;
 }
 
-.spmon-infos {
+.spmon-infos, .gmon-infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
     width: 350px;
 }
 
-.spmon-tipo {
+.spmon-tipo, .gmon-tipo {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #ffffff;
@@ -186,14 +190,14 @@
     border-radius: 50px;
 }
 
-.spmon-info {
+.spmon-info, .gmon-info {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #ffffff;
     font-size: 18px;
 }
 
-.spmon-info span {
+.spmon-info span, .gmon-info span {
     font-weight: 200;
     font-style: italic;
     margin-left: 3px;
@@ -216,15 +220,16 @@
     margin-top: 20px;
 }
 
-.spmon-erro {
+.spmon-erro, .gmon-erro {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #ff8a8a;
+    opacity: 0;
 }
 
 /* Gerar pokémon styles */
-.spmon-nome {
+.spmon-nome, .gmon-nome {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 300;
@@ -233,7 +238,7 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.spmon-shiny {
+.spmon-shiny, .gmon-shiny {
     align-self: flex-end;
     color: gold;
     font-style: italic;
@@ -250,6 +255,94 @@
 .gmon-pokeball {
     width: 50px;
     height: 50px;
+}
+
+.roda {
+    animation: rodar 1s linear infinite;
+    transition: transform 2s;
+}
+
+@keyframes rodar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+/* Tipos styles */
+.Fire {
+    background-color: #ff4422;
+}
+
+.Normal {
+    background-color: #aaaa99;
+}
+
+.Water {
+    background-color: #3399ff;
+}
+
+.Electric {
+    background-color: #ffcc33;
+}
+
+.Grass {
+    background-color: #77cc55;
+}
+
+.Ice {
+    background-color: #66ccff;
+}
+
+.Fighting {
+    background-color: #bb5544;
+}
+
+.Poison {
+    background-color: #aa5599;
+}
+
+.Ground {
+    background-color: #ddbb55;
+}
+
+.Flying {
+    background-color: #8899ff;
+}
+
+.Psychic {
+    background-color: #ff5599;
+}
+
+.Bug {
+    background-color: #aabb22;
+}
+
+.Rock {
+    background-color: #bbaa66;
+}
+
+.Ghost {
+    background-color: #6666bb;
+}
+
+.Dragon {
+    background-color: #7766ee;
+}
+
+.Dark {
+    background-color: #775544;
+}
+
+.Steel {
+    background-color: #aaaabb;
+}
+
+.Fairy {
+    background-color: #ee99ee;
 }
 
 
