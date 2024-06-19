@@ -1,0 +1,148 @@
+@media screen and (max-width: 320px) {
+    .sections {
+        flex-direction: column;
+        padding: 0;
+        margin: 0px 5px;
+        gap: 40px;
+    }
+
+    .section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-header {
+        padding: 5px 15px;
+        gap: 25px;
+    }
+
+    .icon-quiz {
+        width: 28px;
+        height: 28px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .quiz-header-item-text {
+        font-size: 12px;
+    }
+
+    .quiz-regras {
+        margin: 0;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .quiz-regras-title {
+        font-size: 20px;
+    }
+
+    .quiz-regras-list {
+        gap: 10px;
+        padding: 0 8px;
+    }
+
+    .quiz-regras-item {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .quiz-regras-checkbox {
+        margin-top: 0;
+    }
+
+    .quiz-regras-checkbox label{
+        font-size: 13px;
+    }
+
+    .quiz-regras-checkbox input[type="checkbox"] {
+        width: 14px;
+        height: 14px;
+    }
+
+    .section-input {
+        font-size: 12px;
+    }
+
+    .bottom-quiz {
+        margin-bottom: 4px;
+    }
+
+    .pokeball-btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Busca pokémon */
+    .header-busca {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .section-info {
+        width: 12px;
+        height: 12px;
+    }
+
+    .section-text {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .spmon-img, .gmon-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .spmon-infos, .gmon-infos {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .spmon-info, .gmon-info {
+        font-size: 14px;
+    }
+
+    .shiny-verif label {
+        font-size: 12px;
+    }
+
+    .bottom-busca {
+        gap: 2px;
+    }
+
+    .spmon-erro, .gmon-erro {
+        font-size: 10px;
+    }
+
+    /* Random poke */
+    .spmon-nome, .gmon-nome {
+        font-size: 28px;
+    }
+
+    .gmon-pokeball {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Footer */
+    .footer-container {
+        padding: 5px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+    .footer-link {
+        font-size: 13px;
+    }
+
+    .footer-social-icon {
+        width: 25px;
+        height: 25px;
+    }
+}

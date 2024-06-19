@@ -1,3 +1,4 @@
+// Random pokemon generator codes
 export async function getPokeInfos() {
     try {
         const url = await getPokeURL();
@@ -47,3 +48,5 @@ async function getPokeURL() {
     }
 }
 
+
+// Search pokémon codes

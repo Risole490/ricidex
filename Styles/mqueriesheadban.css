@@ -82,6 +82,7 @@
     .poke-do-dia-content {
         flex-direction: column;
         gap: 10px;
+        padding: 0;
     }
 
     .pdd-infos-container {
@@ -90,7 +91,10 @@
     }
 
     .poke-do-dia-infos {
+        gap: 5px;
         flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .poke-do-dia-item {
