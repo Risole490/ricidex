@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .sections {
         flex-direction: column;
         padding: 0;
@@ -144,5 +144,195 @@
     .footer-social-icon {
         width: 25px;
         height: 25px;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .section-header {
+        gap: 35px;
+    }
+
+    .icon-quiz {
+        width: 32px;
+        height: 32px;
+    }
+
+    .quiz-regras {
+        margin: 5px 0;
+    }
+
+    .quiz-regras-title {
+        font-size: 22px;
+    }
+
+    .quiz-regras-list {
+        padding: 0 20px;
+    }
+
+    .quiz-regras-item {
+        font-size: 15px;
+    }
+
+    .quiz-regras-checkbox label{
+        font-size: 15px;
+    }
+
+    .section-input {
+        font-size: 13px;
+    }
+
+    .pokeball-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Busca pokémon */
+    .section-info {
+        width: 15px;
+        height: 15px;
+    }
+
+    .section-text {
+        font-size: 14px;
+    }
+
+    .spmon-img, .gmon-img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .spmon-infos, .gmon-infos {
+        gap: 10px;
+        width: 90%;
+    }
+
+    .spmon-info, .gmon-info {
+        font-size: 16px;
+    }
+
+    .shiny-verif label {
+        font-size: 14px;
+    }
+
+    .spmon-erro, .gmon-erro {
+        font-size: 11px;
+    }
+
+    /* Random poke */
+    .gmon-pokeball {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Footer */
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section-header {
+        gap: 50px;
+    }
+
+    .icon-quiz {
+        width: 36px;
+        height: 36px;
+    }
+
+    .quiz-regras {
+        margin: 10px 0;
+    }
+
+    .quiz-regras-title {
+        font-size: 24px;
+    }
+
+    .quiz-regras-list {
+        padding: 0;
+        width: 85%;
+    }
+
+    .quiz-regras-item {
+        font-size: 17px;
+    }
+
+    .quiz-regras-checkbox label{
+        font-size: 17px;
+    }
+
+    .section-input {
+        font-size: 14px;
+    }
+
+    .pokeball-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Busca pokémon */
+    .section-info {
+        width: 17px;
+        height: 17px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-text {
+        font-size: 15px;
+    }
+
+    .spmon-img, .gmon-img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .spmon-infos, .gmon-infos {
+        gap: 15px;
+        width: 80%;
+    }
+
+    .spmon-info, .gmon-info {
+        font-size: 18px;
+    }
+
+    .shiny-verif label {
+        font-size: 16px;
+    }
+
+    .spmon-erro, .gmon-erro {
+        font-size: 12px;
+    }
+
+    /* Random poke */
+    .spmon-nome, .gmon-nome {
+        font-size: 32px;
+    }
+
+    .gmon-pokeball {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Footer */
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .footer-social-icon {
+        width: 35px;
+        height: 35px;
     }
 }
