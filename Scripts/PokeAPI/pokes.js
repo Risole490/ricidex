@@ -94,3 +94,17 @@ export async function buscarPokeURL(pokeBuscado) {
         }
     }
 }
+
+export async function todosNomesDePokes() {
+    try {
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0');
+        const data = await response.json();
+        let pokes = [];
+        for(let i = 0; i < data.results.length; i++) {
+            pokes.push(data.results[i].name);
+        }
+        return pokes;
+    } catch (error) {
+        console.error(error);
+    }
+}

@@ -121,7 +121,7 @@
 
     <section class="sections">
         <div class="section quiz-section">
-            <div class="section-header">
+            <div class="section-header quiz-header">
                 <div class="quiz-header-item">
                     <button class="btn-pokeball"><img src="/Images/ranking.png" alt="Ícone ranking" class="icon-quiz"></button>
                     <p class="quiz-header-item-text">Ranking</p>
@@ -159,26 +159,20 @@
         <div class="section">
             <div class="section-header header-busca">
                 <h2 class="section-title">Buscar pokémon</h2>
-                <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
+                <!-- <img src="/Images/info.png" alt="Ícone interrogação" class="section-info" id="icone-info"> -->
+                <div class="infos-buscas" id="info-div">
+                        <p class="infos-buscas-text">Megas: pokemon[-mega|-mega-x/y]</p>
+                        <p class="infos-buscas-text">GMax: pokemon[-gmax]</p>
+                        <p class="infos-buscas-text">Regiões: pokemon[-regiao]</p>
+                        <p class="infos-buscas-text">Incarnate: pokemon[-incarnate]</p>
+                        <p class="infos-buscas-text">Outras formas específicas: pokemon[-forma]</p>
+                        <p class="infos-buscas-text">Todas as formas: Visite o site oficial da <a href="https://www.pokemon.com/br/pokedex" class="link-pokedex">Pokédex</a></p>
+                    </p>
+                </div>
             </div>
             <p class="section-text">Se não for possível encontrar um pokemon, peço desculpas. Todo erro é relatado e tento ajustar com o tempo.</p>
 
             <div class="section-middle" id="middle-spmon">
-                <!-- <div class="spmon-header">
-                    <h2 class="spmon-nome">Rayquaza</h2>
-                    <p class="spmon-shiny">Shiny!</p>
-                </div>
-
-                <div class="section-middle-poke">
-                    <img src="/Images/rayquaza-shiny.png" alt="Pokémon" class="spmon-img">
-
-                    <div class="spmon-infos">
-                        <p class="spmon-tipo dragon">Tipo1</p>
-                        <p class="spmon-tipo ghost">Tipo2</p>
-                        <p class="spmon-info">Habilidade: <span>Serene Grace</span></p>
-                        <p class="spmon-info">Geração <span>IV</span></p>
-                    </div>
-                </div> -->
             </div>
 
             <div class="section-bottom bottom-busca">
@@ -198,7 +192,6 @@
         <div class="section">
             <div class="section-header header-busca">
                 <h2 class="section-title">Gerar pokémon</h2>
-                <img src="/Images/info.png" alt="Ícone interrogação" class="section-info">
             </div>
             <p class="section-text">Clique na pokébola para gerar um pokémon aleatório! <br>Possui 5s de espera e 1% de chance de vir shiny.</p>
 

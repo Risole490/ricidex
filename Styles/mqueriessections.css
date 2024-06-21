@@ -14,7 +14,7 @@
 
     .section-header {
         padding: 5px 15px;
-        gap: 25px;
+        
     }
 
     .icon-quiz {
@@ -78,13 +78,17 @@
 
     /* Busca pokémon */
     .header-busca {
-        gap: 15px;
+        gap: 0px;
         padding: 10px;
     }
 
     .section-info {
         width: 12px;
         height: 12px;
+    }
+
+    .infos-buscas-text {
+        font-size: 10px;
     }
 
     .section-text {
@@ -148,7 +152,7 @@
 }
 
 @media screen and (min-width: 500px){
-    .section-header {
+    .quiz-header {
         gap: 35px;
     }
 
@@ -241,8 +245,8 @@
         width: 90%;
         margin: 0 auto;
     }
-    .section-header {
-        gap: 50px;
+    .quiz-header {
+        gap: 20px;
     }
 
     .icon-quiz {
@@ -340,10 +344,6 @@
 @media screen and (min-width: 1025px) {
     .section {
         width: 80%;
-    }
-
-    .section-header {
-        gap: 50px;
     }
 
     .icon-quiz {
@@ -465,7 +465,7 @@
         height: 40px;
     }
 
-    .section-header {
+    .quiz-header {
         gap: 20px;
     }
 
@@ -488,6 +488,10 @@
 @media screen and (min-width: 1920px) {
     .quiz-regras {
         width: 100%;
+    }
+
+    .infos-buscas-text {
+        font-size: 12px;
     }
 }
 

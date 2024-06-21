@@ -45,7 +45,7 @@
 
 .section-title {
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: #ffffff;
 }
@@ -133,14 +133,15 @@
 
 /* Busca pokémon styles */
 .header-busca {
-    gap: 20px;
-    padding: 10px 20px;
+    gap: 0;
+    padding: 10px 5px;
 }
 
 .section-info {
     width: 15px;
     height: 15px;
 }
+
 
 .section-text {
     font-family: 'Inter', sans-serif;
@@ -202,6 +203,27 @@
     margin-left: 3px;
 }
 
+.infos-buscas {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.link-pokedex {
+    color: #ffffff;
+
+}
+
+.infos-buscas-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 300;
+    color: #ffffff;
+}
+
 .shiny-verif label {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -218,6 +240,7 @@
     flex-direction: column;
     margin-top: 20px;
 }
+
 
 .spmon-erro, .gmon-erro {
     font-family: 'Inter', sans-serif;
