@@ -50,3 +50,47 @@ async function getPokeURL() {
 
 
 // Search pokémon codes
+export async function buscarPokeURL(pokeBuscado) {
+    try {
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokeBuscado}`);
+        console.log(response);
+
+        if(response.status === 404) {
+            throw new Error('Pokémon não encontrado');    
+        }
+
+        const data = await response.json();
+        
+        // Infos do pokémon
+        const pokeID = data.id;
+        const pokeName = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+        const pokeHability = data.abilities[0].ability.name.charAt(0).toUpperCase() + data.abilities[0].ability.name.slice(1).replace('-', ' ');
+
+        // Infos do tipo do pokémon
+        if(data.types.length > 1) {
+            var pokeType1 = data.types[0].type.name.charAt(0).toUpperCase() + data.types[0].type.name.slice(1);
+            var pokeType2 = data.types[1].type.name.charAt(0).toUpperCase() + data.types[1].type.name.slice(1);
+        } else {
+            var pokeType1 = data.types[0].type.name.charAt(0).toUpperCase() + data.types[0].type.name.slice(1);
+            var pokeType2 = '';
+        }
+
+        // Infos da imagem do pokémon
+        const pokeSpriteNormal = data.sprites.other['official-artwork'].front_default;
+        const pokeSpriteShiny = data.sprites.other['official-artwork'].front_shiny;
+
+        // Infos da geração do pokémon
+        const pokeSpeciesURL = data.species.url;
+        const responseSpecies = await fetch(pokeSpeciesURL);
+        const dataSpecies = await responseSpecies.json();
+        const pokeGenNumber = dataSpecies.generation.url.split('/').slice(-2)[0];
+
+        return { pokeID, pokeName, pokeHability, pokeType1, pokeType2, pokeSpriteNormal, pokeGenNumber, pokeSpriteShiny };
+
+    } catch (error) {
+        console.error(error);
+        if(error.message === 'Pokémon não encontrado') {
+            return 'Pokémon não encontrado';
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
     .sections {
         flex-direction: column;
         padding: 0;
@@ -334,5 +334,185 @@
     .footer-social-icon {
         width: 35px;
         height: 35px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .section {
+        width: 80%;
+    }
+
+    .section-header {
+        gap: 50px;
+    }
+
+    .icon-quiz {
+        width: 35px;
+        height: 35px;
+    }
+
+    .quiz-regras {
+        margin: 15px 0;
+    }
+
+    .quiz-regras-title {
+        font-size: 26px;
+    }
+
+    .quiz-regras-list {
+        width: 75%;
+    }
+
+    .quiz-regras-item {
+        font-size: 19px;
+    }
+
+    .quiz-regras-checkbox label{
+        font-size: 19px;
+    }
+
+    .section-input {
+        font-size: 16px;
+    }
+
+    .pokeball-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Busca pokémon */
+    .section-info {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-text {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .spmon-img, .gmon-img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .spmon-infos, .gmon-infos {
+        gap: 20px;
+        width: 75%;
+    }
+
+    .spmon-info, .gmon-info {
+        font-size: 20px;
+    }
+
+    .shiny-verif label {
+        font-size: 18px;
+    }
+
+    .spmon-erro, .gmon-erro {
+        font-size: 14px;
+    }
+
+    /* Random poke */
+    .spmon-nome, .gmon-nome {
+        font-size: 36px;
+    }
+
+    .gmon-pokeball {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Footer */
+    .footer-text {
+        font-size: 18px;
+    }
+
+    .footer-link {
+        font-size: 19px;
+    }
+
+    .footer-social-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+    /* Quiz */
+    .quiz-regras {
+        margin: 5px 0;
+    }
+
+    .quiz-regras-list {
+        width: 85%;
+    }
+
+    .quiz-regras-item {
+        font-size: 18px;
+    }
+
+    .quiz-regras-checkbox {
+        margin-top: 0;
+    }
+
+    .pokeball-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-header {
+        gap: 20px;
+    }
+
+    .spmon-img, .gmon-img {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* Footer */
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .quiz-regras {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2200px){
+    .quiz-section {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .bottom-quiz {
+        margin-top: 50px;
+    }
+
+    .icon-quiz {
+        width: 50px;
+        height: 50px;
+    }
+
+    .gmon-img, .spmon-img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .pokeball-btn {
+        width: 55px;
+        height: 55px;
     }
 }

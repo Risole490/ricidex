@@ -345,33 +345,49 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 2000px){
+
+    .banner {
+        gap: 50px;
+    }
+
     .menu-item-text {
         font-size: 1.6rem;
     }
 
     /* Banner welcome */
     .banner-welcome {
-        gap: 30px;
+        gap: 10px;
+        justify-content: space-evenly;
     }
 
     .welcome-title {
         font-size: 2rem;
+        text-align: center;
     }
 
     .welcome-text {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .welcome-bottom {
         gap: 20px;
     }
 
+    .welcome-subtext {
+        font-size: 1rem;
+        text-align: center;
+    }
+
     .welcome-poke {
-        width: 75px;
-        height: 75px;
+        width: 70px;
+        height: 70px;
     }
 
     /* Banner poke do dia */
+    /* .banner-poke-do-dia {
+        justify-content: space-between;
+    } */
+    
     .poke-do-dia-header {
         padding: 5px 40px;
     }

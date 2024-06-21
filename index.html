@@ -120,7 +120,7 @@
     </section>
 
     <section class="sections">
-        <div class="section">
+        <div class="section quiz-section">
             <div class="section-header">
                 <div class="quiz-header-item">
                     <button class="btn-pokeball"><img src="/Images/ranking.png" alt="Ícone ranking" class="icon-quiz"></button>
@@ -163,8 +163,8 @@
             </div>
             <p class="section-text">Se não for possível encontrar um pokemon, peço desculpas. Todo erro é relatado e tento ajustar com o tempo.</p>
 
-            <div class="section-middle">
-                <div class="spmon-header">
+            <div class="section-middle" id="middle-spmon">
+                <!-- <div class="spmon-header">
                     <h2 class="spmon-nome">Rayquaza</h2>
                     <p class="spmon-shiny">Shiny!</p>
                 </div>
@@ -178,7 +178,7 @@
                         <p class="spmon-info">Habilidade: <span>Serene Grace</span></p>
                         <p class="spmon-info">Geração <span>IV</span></p>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="section-bottom bottom-busca">
@@ -188,10 +188,10 @@
                 </div>
 
                 <div class="input-section">
-                    <input type="text" class="section-input input-busca" placeholder="Digite o nome do pokémon">
-                    <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
+                    <input type="text" class="section-input input-busca" id="spmon-input" placeholder="Digite o nome do pokémon">
+                    <button class="btn-pokeball" id="spmon-btn"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
                 </div>
-                <span class="spmon-erro">Pokémon não encontrado :/</span>
+                <span class="spmon-erro" id="spmon-erro">Pokémon não encontrado :/</span>
             </div>
         </div>
 
@@ -225,5 +225,6 @@
 
     <script src="/Scripts/main.js"></script>
     <script type="module" src="/Scripts/gerarpoke.js"></script>
+    <script type="module" src="/Scripts/buscarpoke.js"></script>
 </body>
 </html>
