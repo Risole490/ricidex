@@ -14,7 +14,6 @@
 
     .section-header {
         padding: 5px 15px;
-        
     }
 
     .icon-quiz {
@@ -48,19 +47,6 @@
     .quiz-regras-item {
         font-size: 13px;
         font-weight: 500;
-    }
-
-    .quiz-regras-checkbox {
-        margin-top: 0;
-    }
-
-    .quiz-regras-checkbox label{
-        font-size: 13px;
-    }
-
-    .quiz-regras-checkbox input[type="checkbox"] {
-        width: 14px;
-        height: 14px;
     }
 
     .section-input {
@@ -177,10 +163,6 @@
         font-size: 15px;
     }
 
-    .quiz-regras-checkbox label{
-        font-size: 15px;
-    }
-
     .section-input {
         font-size: 13px;
     }
@@ -242,7 +224,7 @@
 
 @media screen and (min-width: 768px) {
     .section {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
     }
     .quiz-header {
@@ -268,10 +250,6 @@
     }
 
     .quiz-regras-item {
-        font-size: 17px;
-    }
-
-    .quiz-regras-checkbox label{
         font-size: 17px;
     }
 
@@ -343,7 +321,7 @@
 
 @media screen and (min-width: 1025px) {
     .section {
-        width: 80%;
+        width: 50%;
     }
 
     .icon-quiz {
@@ -364,10 +342,6 @@
     }
 
     .quiz-regras-item {
-        font-size: 19px;
-    }
-
-    .quiz-regras-checkbox label{
         font-size: 19px;
     }
 
@@ -454,10 +428,6 @@
 
     .quiz-regras-item {
         font-size: 18px;
-    }
-
-    .quiz-regras-checkbox {
-        margin-top: 0;
     }
 
     .pokeball-btn {

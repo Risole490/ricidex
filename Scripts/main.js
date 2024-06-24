@@ -1,6 +1,4 @@
 const iconeMenuMobile = document.getElementById('menu_mobile_icon');
-const iconeInfo = document.getElementById('icone-info');
-const textoBuscas = document.getElementById('info-div');
 
 // Adiciona o evento de click no ícone do menu mobile
 iconeMenuMobile.addEventListener('click', () => {

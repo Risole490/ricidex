@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -133,24 +133,30 @@
                 </div>
             </div>
 
-            <div class="quiz-regras">
-                <p class="quiz-regras-title">Regras:</p>
-                <ul class="quiz-regras-list">
-                    <li class="quiz-regras-item">1. Você terá 10 segundos e 100 de HP no ínicio para adivinhar o pokémon corretamente.</li>
-                    <li class="quiz-regras-item">2. Cada acerto = 1 ponto. Se acertar como shiny, = 3 pontos. Se acertar de primeira = 5 pontos.</li>
-                    <li class="quiz-regras-item">3. Cada erro perde 1 de HP. Se não responder dentro dos 10s, perde 5 de HP. Se pular, perde 10 de HP.</li>
-                    <li class="quiz-regras-item">4. O quiz só encerra quando o seu HP chegar a 0 ou você pedir para encerrar.</li>
-                </ul>
-                
-                <div class="quiz-regras-checkbox">
-                    <input type="checkbox" name="checkbox" id="input-checkbox" required> 
-                    <label for="input-checkbox">Entendi as regras.</label>
+            <div class="middle-quiz">
+                <div class="quiz-regras">
+                    <p class="quiz-regras-title">Regras:</p>
+                    <ul class="quiz-regras-list">
+                        <li class="quiz-regras-item">1. Você terá 10 segundos e 100 de HP no ínicio para adivinhar o pokémon corretamente.</li>
+                        <li class="quiz-regras-item">2. Cada acerto = 1 ponto. Se acertar como shiny, = 3 pontos. Se acertar de primeira = 5 pontos.</li>
+                        <li class="quiz-regras-item">3. Cada erro perde 1 de HP. Se não responder dentro dos 10s, perde 5 de HP. Se pular, perde 10 de HP.</li>
+                        <li class="quiz-regras-item">4. O quiz só encerra quando o seu HP chegar a 0 ou você pedir para encerrar.</li>
+                    </ul>
                 </div>
             </div>
 
             <div class="section-bottom bottom-quiz">
-                <input type="email" name="email" id="input-email" class="section-input" placeholder="Digite seu e-mail">
-                <button class="btn-pokeball"><img src="/Images/pokeball-banner.png" alt="Ícone pokeball" class="pokeball-btn"></button>
+                <form action="" id="quiz-form" class="quiz-form">
+                    <div class="form-inputs">
+                        <input type="email" name="email" id="input-email" class="section-input" placeholder="Digite seu e-mail" required>
+                        <input type="password" name="senha" id="input-senha" class="section-input" placeholder="Digite sua senha" required>
+                    </div>
+                    
+                    <div class="form-botoes">
+                        <button class="btn-quiz" type="submit" id="btn-login">Fazer Login</button>
+                        <button class="btn-quiz" type="submit" id="btn-singup">Criar conta</button>
+                    </div>
+                </form>
             </div>
         </div>
 
@@ -216,5 +222,6 @@
     <script src="/Scripts/main.js"></script>
     <script type="module" src="/Scripts/gerarpoke.js"></script>
     <script type="module" src="/Scripts/buscarpoke.js"></script>
+    <script type="module" src="/Scripts/quizpoke.js"></script>
 </body>
 </html>
