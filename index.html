@@ -122,19 +122,17 @@
     <section class="sections">
         <div class="section quiz-section">
             <div class="section-header quiz-header">
-                <div class="quiz-header-item">
-                    <button class="btn-pokeball"><img src="/Images/ranking.png" alt="Ícone ranking" class="icon-quiz"></button>
-                    <p class="quiz-header-item-text">Ranking</p>
-                </div>
+                    <div class="quiz-header-tempo inativo" id="quiz-header-tempo">
+                        <p class="quiz-header-tempo-text">Tempo restante:</p>
+                        <span class="quiz-header-tempo-num" id="quiz-header-tempo"></span>
+                    </div>
                 <h2 class="section-title">Quiz</h2>
-                <div class="quiz-header-item">
-                    <button class="btn-pokeball"><img src="/Images/reset.png" alt="Ícone reset" class="icon-quiz"></button>
-                    <p class="quiz-header-item-text">Resetar</p>
-                </div>
+
+                <button class="quiz-header-btn inativo" id="btn-finalizar-quiz">Finalizar</button>
             </div>
 
-            <div class="middle-quiz">
-                <div class="quiz-regras">
+            <div class="middle-quiz" id="meio-quiz">
+                <div class="quiz-regras" id="quiz-regras">
                     <p class="quiz-regras-title">Regras:</p>
                     <ul class="quiz-regras-list">
                         <li class="quiz-regras-item">1. Você terá 10 segundos e 100 de HP no ínicio para adivinhar o pokémon corretamente.</li>
@@ -145,18 +143,24 @@
                 </div>
             </div>
 
-            <div class="section-bottom bottom-quiz">
-                <form action="" id="quiz-form" class="quiz-form">
-                    <div class="form-inputs">
-                        <input type="email" name="email" id="input-email" class="section-input" placeholder="Digite seu e-mail" required>
-                        <input type="password" name="senha" id="input-senha" class="section-input" placeholder="Digite sua senha" required>
+            <div class="section-bottom bottom-quiz" id="quiz-bottom">
+                <div class="bottom-quiz-header">
+                    <button class="btn-quiz" id="btn-iniciar-quiz">Iniciar quiz</button>
+                </div>
+
+                <div class="bottom-quiz-iniciado inativo" id="bottom-quiz-iniciado">
+                    <div class="bottom-quiz-life">
+                        <p class="quiz-bottom-life-title">HP</p>
+                        <p class="quiz-bottom-life" id="quiz-bottom-life"></p>
                     </div>
-                    
-                    <div class="form-botoes">
-                        <button class="btn-quiz" type="submit" id="btn-login">Fazer Login</button>
-                        <button class="btn-quiz" type="submit" id="btn-singup">Criar conta</button>
+
+                    <div class="bottom-quiz-resposta">
+                        <input type="text" class="section-input input-quiz" id="quiz-input" placeholder="Digite o nome do pokémon">
+                        <button class="btn-quiz" id="btn-responder-quiz"><img src="/Images/pokeball-banner.png" alt="Ícone pokebola" class="quiz-pokeball"></button>
                     </div>
-                </form>
+
+                    <button class="btn-quiz" id="btn-pular-quiz">Pular</button>
+                </div>
             </div>
         </div>
 
