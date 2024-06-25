@@ -78,7 +78,7 @@
 .poke-do-dia-header {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     padding: 5px 20px;
     border-radius: 0px 0px 5px 5px;
     background-color: #231E1E;

@@ -30,8 +30,6 @@
                         <a href="#" class="menu-item-text">Ricidex</a>
                     </li>
                     <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
-                    <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
-                    <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
                 </ul>
             </div>
         </div>
@@ -42,7 +40,6 @@
                     <img src="/Images/pokeball.png" alt="Pokébola" class="menu-item-icon">
                     <a href="#" class="menu-item-text">Ricidex</a>
                 </li>
-                <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
             </ul>
         </div>
 
@@ -52,7 +49,6 @@
 
         <div class="menu2">
             <ul class="menu2">
-                <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
                 <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
             </ul>
         </div>
@@ -80,39 +76,39 @@
         <div class="banner-poke-do-dia">
             <div class="poke-do-dia-header">
                 <h2 class="poke-do-dia-title">Poke do dia:</h2> 
-                <span class="poke-do-dia-nome">Arcanine</span>
+                <span class="poke-do-dia-nome" id="pdd-nome">Arcanine</span>
             </div>
 
             <div class="poke-do-dia-content">
                 <div class="pdd-infos-container">
                     <div class="poke-do-dia-infos">
                         <p class="poke-do-dia-item">Habilidade: 
-                            <span class="poke-do-dia-format">Kanto</span>
+                            <span class="poke-do-dia-format" id="pdd-skill">Kanto</span>
                         </p>
                         <p class="poke-do-dia-item">Geração 
-                            <span class="poke-do-dia-format">I</span>
+                            <span class="poke-do-dia-format" id="pdd-gen">I</span>
                         </p>
                         <p class="poke-do-dia-item">Altura: 
-                            <span class="poke-do-dia-format">19</span>
+                            <span class="poke-do-dia-format" id="pdd-altura">19</span>
                         </p>
                         <p class="poke-do-dia-item">Peso: 
-                            <span class="poke-do-dia-format">1550</span>
+                            <span class="poke-do-dia-format" id="pdd-peso">1550</span>
                         </p>
                     </div>
 
                     <div class="poke-do-dia-tipos">
-                        <div class="poke-do-dia-tipo tipoapi">
-                            <p class="pdd-tipo-text">Tipo1</p>
+                        <div class="poke-do-dia-tipo tipoapi" id="pdd-tipo1-div">
+                            <p class="pdd-tipo-text" id="pdd-tipo1-txt">Tipo1</p>
                         </div>
-                        <div class="poke-do-dia-tipo tipoapi">
-                            <p class="pdd-tipo-text" >Tipo2</p>
+                        <div class="poke-do-dia-tipo tipoapi" id="pdd-tipo2-div">
+                            <p class="pdd-tipo-text" id="pdd-tipo2-txt">Tipo2</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="poke-do-dia-imgs">
-                    <img src="/Images/arcanine.png" alt="Pokémon Arcanine Normal" class="poke-do-dia-img">
-                    <img src="/Images/arcanine-shiny.png" alt="Pokémon Arcanine Shiny" class="poke-do-dia-img">
+                    <img src="/Images/arcanine.png" alt="Pokémon Arcanine Normal" class="poke-do-dia-img" id="pdd-sprite-normal">
+                    <img src="/Images/arcanine-shiny.png" alt="Pokémon Arcanine Shiny" class="poke-do-dia-img" id="pdd-sprite-shiny">
                 </div>
             </div>
         </div>
@@ -224,7 +220,7 @@
         </div>
     </footer>
 
-    <script src="/Scripts/main.js"></script>
+    <script type="module" src="/Scripts/main.js"></script>
     <script type="module" src="/Scripts/gerarpoke.js"></script>
     <script type="module" src="/Scripts/buscarpoke.js"></script>
     <script type="module" src="/Scripts/quizpoke.js"></script>
