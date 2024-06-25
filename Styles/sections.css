@@ -153,6 +153,10 @@
     cursor: pointer;
 }
 
+.btn-resposta {
+    background: none;
+}
+
 .btn-pokeball {
     background: none;
     border: none;
