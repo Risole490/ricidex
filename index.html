@@ -29,7 +29,7 @@
                         <img src="/Images/pokeball.png" alt="Pokébola" class="menu-item-icon">
                         <a href="#" class="menu-item-text">Ricidex</a>
                     </li>
-                    <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
+                    <li class="menu-item"><a href="#" class="menu-item-text">Ricicards</a></li>
                 </ul>
             </div>
         </div>
@@ -49,12 +49,8 @@
 
         <div class="menu2">
             <ul class="menu2">
-                <li class="menu-item"><a href="#" class="menu-item-text">Item novo</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-text">Ricicards</a></li>
             </ul>
-        </div>
-
-        <div class="language">
-            <a href="#" class="language-text">PT</a>
         </div>
     </header>
 
@@ -122,7 +118,7 @@
                         <p class="quiz-header-tempo-text">Tempo restante:</p>
                         <span class="quiz-header-tempo-num" id="quiz-header-tempo-text-num"></span>
                     </div>
-                <h2 class="section-title">Quiz</h2>
+                <h2 class="section-title quiz-title">Quiz</h2>
 
                 <button class="quiz-header-btn inativo" id="btn-finalizar-quiz">Finalizar</button>
             </div>
@@ -147,16 +143,16 @@
                 <div class="bottom-quiz-iniciado inativo" id="bottom-quiz-iniciado">
                     <div class="bottom-quiz-life">
                         <p class="quiz-bottom-life-title">HP</p>
-                        <p class="quiz-bottom-life" id="quiz-bottom-life"></p>
+                        <p class="quiz-bottom-life-num" id="quiz-bottom-life"></p>
                     </div>
 
                     <div class="bottom-quiz-resposta">
                         <input type="text" class="section-input input-quiz" id="quiz-input" placeholder="Digite o nome do pokémon">
-                        <button class="btn-quiz btn-resposta" id="btn-responder-quiz"><img src="/Images/pokeball-banner.png" alt="Ícone pokebola" class="quiz-pokeball"></button>
                         <span class="quiz-resposta-msg" id="quiz-resposta-msg" inativo></span>
+                        <button class="btn-quiz btn-resposta" id="btn-responder-quiz"><img src="/Images/pokeball-banner.png" alt="Ícone pokebola" class="quiz-pokeball"></button>
                     </div>
 
-                    <button class="btn-quiz" id="btn-pular-quiz">Pular</button>
+                    <button class="btn-quiz btn-skip" id="btn-pular-quiz">Pular</button>
                 </div>
             </div>
         </div>
@@ -218,6 +214,8 @@
                 <a href="#" class="footer-social-link"><img src="/Images/gmail.png" alt="Gmail" class="footer-social-icon"></a>
             </div>
         </div>
+
+        
     </footer>
 
     <script type="module" src="/Scripts/main.js"></script>

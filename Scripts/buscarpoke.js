@@ -40,7 +40,9 @@ botaoBuscarPoke.addEventListener('click', async () => {
         let pokeName = pokeInfos.pokeName;
         let pokeHabilidade = pokeInfos.pokeHability;
         let pokeType1 = pokeInfos.pokeType1;
+        pokeType1 = pokeType1.toLowerCase();
         let pokeType2 = pokeInfos.pokeType2;
+        pokeType2 = pokeType2.toLowerCase();
         let pokeGenNumber = pokeInfos.pokeGenNumber;
         let pokeSprite;
 

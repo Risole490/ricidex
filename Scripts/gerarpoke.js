@@ -29,7 +29,9 @@ botaoGerarPoke.addEventListener('click', async () => {
         let pokeHability = pokeInfos.pokeHability;
         let pokeGenNumber = pokeInfos.pokeGenNumber;
         let pokeType1 = pokeInfos.pokeType1;
+        pokeType1 = pokeType1.toLowerCase();
         let pokeType2 = pokeInfos.pokeType2;
+        pokeType2 = pokeType2.toLowerCase();
         let pokeSprite = pokeInfos.pokeSpriteNormal;
         let pokeSpriteShiny = pokeInfos.pokeSpriteShiny;
 

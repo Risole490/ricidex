@@ -25,10 +25,6 @@
         font-size: 24px;
     }
 
-    .quiz-header-item-text {
-        font-size: 12px;
-    }
-
     .quiz-regras {
         margin: 0;
         gap: 15px;
@@ -60,6 +56,73 @@
     .pokeball-btn {
         width: 30px;
         height: 30px;
+    }
+
+    /* Quiz iniciado styles */
+    .quiz-title {
+        font-size: 24px;
+    }
+
+    .quiz-header-tempo {
+        gap: 5px;
+    }
+
+    .quiz-header-tempo-text {
+        font-size: 14px;
+    }
+
+    .quiz-header-tempo-num {
+        font-size: 18px;
+    }
+
+    .quiz-header-btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    /* Meio do quiz */
+    .quiz-pokemon-nome {
+        font-size: 20px;
+    }
+
+    .quiz-pokemon-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Bottom do quiz */
+    .bottom-quiz-iniciado {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .bottom-quiz-life {
+        order: 2;
+        padding: 5px;
+    }
+
+    .quiz-bottom-life-title, .quiz-bottom-life-num {
+        font-size: 14px;
+    }
+
+    .bottom-quiz-resposta {
+        order: 1;
+    }
+
+    .quiz-resposta-msg {
+        font-size: 12px;
+        color: wheat;
+    }
+
+    .btn-skip {
+        background-image: url('../Images/skip.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+        font-size: 0;
+        padding: 15px 20px;
     }
 
     /* Busca pokémon */
@@ -171,6 +234,67 @@
         width: 35px;
         height: 35px;
     }
+
+    /* Quiz iniciado styles */
+    .quiz-title {
+        font-size: 26px;
+    }
+
+    .quiz-header-tempo-text {
+        font-size: 16px;
+    }
+
+    .quiz-header-tempo-num {
+        font-size: 20px;
+    }
+
+    .quiz-header-btn {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+
+    /* Meio do quiz */
+    .quiz-pokemon-nome {
+        font-size: 24px;
+    }
+
+    .quiz-pokemon-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Bottom do quiz */
+    .bottom-quiz-iniciado {
+        gap: 20px;
+        flex-wrap: nowrap;
+    }
+
+    .bottom-quiz-life {
+        padding: 10px;
+        order: 0;
+    }
+
+    .quiz-bottom-life-title, .quiz-bottom-life-num {
+        font-size: 16px;
+    }
+
+    .bottom-quiz-resposta {
+        order: 1;
+    }
+
+    .quiz-resposta-msg {
+        font-size: 14px;
+    }
+
+    .btn-skip {
+        order: 2;
+        background-image: none;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
 
     /* Busca pokémon */
     .section-info {
@@ -352,6 +476,16 @@
     .pokeball-btn {
         width: 45px;
         height: 45px;
+    }
+
+    /* Quiz iniciado styles */
+    .quiz-pokemon-nome {
+        font-size: 26px;
+    }
+
+    .quiz-pokemon-img {
+        width: 300px;
+        height: 300px;
     }
 
     /* Busca pokémon */
