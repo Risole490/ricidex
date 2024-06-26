@@ -5,17 +5,23 @@ Um website interativo com mini-game e ações envolvendo pokémons! Feito absolu
 
 
 
-
 ## Funcionalidades atuais
 
-- Responsividade aplicada ao banner para dispositivos menores;
-- Gerador de pokémon aleatório funcionando;
+- Responsividade aplicada para diversos tamanhos de tela
+- Gerador de pokémon aleatório
+- Busca de pokémon
+- Quiz de pokémon
+- Poke do dia sendo atualizado toda meia-noite
 
 
 ## Roadmap
 
-- Aplicar responsividade para a seção de Gerar Pokémon (em progresso)
-- Iniciar desenvolvimento da seção Buscar Pokémon
+- Aplicar responsividade para a seção de Gerar Pokémon ✔️ 
+- Iniciar desenvolvimento da seção Buscar Pokémon ✔️
+- Aplicar responsividade para a seção Buscar Pokémon ✔️
+- Iniciar desenvolvimento da seção Quiz ✔️
+- Aplicar responsividade da seção Quiz ✔️
+- Poke do diz operante ✔️ 
 
 
 ## Feedback
@@ -25,8 +31,8 @@ Se você tiver algum feedback, fique a vontade para compartilhar comigo: lyrsit@
 
 ## Aprendizados
 
-O que você aprendeu construindo esse projeto? 
-- Por enquanto, melhor entendimento de responsividade, organização de APIs e modularização. 
+O que aprendi construindo esse projeto? 
+- Um melhor entendimento de responsividade, organização e consulta de API e modularização. 
 
 
 ## Licenças
