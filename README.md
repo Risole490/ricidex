@@ -34,6 +34,12 @@ Se você tiver algum feedback, fique a vontade para compartilhar comigo: lyrsit@
 O que aprendi construindo esse projeto? 
 - Um melhor entendimento de responsividade, organização e consulta de API e modularização. 
 
+## Screenshots
+![image](https://github.com/Risole490/ricidex/assets/71907948/2d6835b5-c638-4d11-b438-09fe635b6e8e)
+![image](https://github.com/Risole490/ricidex/assets/71907948/da86bffc-65de-4377-81ba-8eac8e020fda)
+
+
+
 
 ## Licenças
 
